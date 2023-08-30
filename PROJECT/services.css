@@ -1,0 +1,45 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0 ;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.services .container{
+    background: linear-gradient(45deg, blueviolet, lightgreen);
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+
+.services .container .heading{
+text-align: center;
+color: #fff;
+text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+padding-bottom: 15px;
+font-size: 50px;
+}
+
+.services .container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, min-max(270px, 1fr));
+    grid-gap: 50px;
+}
+
+.services .container .box-container .box{
+    text-align: center;
+}
+
+.services .container .box-container .box img{
+    height: 10rem;
+    margin-bottom: .7rem;
+    width: 100px;
+}
+
+.services .box-container .box h3{
+    font-size: 1.7rem;
+    color: var(--black);
+    padding: .5rem 0;
+} 
